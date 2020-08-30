@@ -1,65 +1,202 @@
 
-/* ================================= 
-  Base Element Styles
-==================================== */
+/* Base Element Styles  */
+* {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    color: #1E4270;
+    width: 100%;
+}
 
 body {
 	font-family: Roboto, sans-serif;
-	line-height: 1.6;
+    line-height: 1.6;
+    background-color: #FFFFFF;
 }
 
 p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
+	font-size: 1em;
+    margin-bottom: 1.8em;
+    line-height: 1.5;
+    text-align: center;
 }
 
+/* Navigation Top and footer */
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
-
-/* Navigation */
-    .name {
-	font-size: 2.5em;
+.name {
+    font-size: 2.5em;
     margin: 0;
     text-align: center;
-    color: #828282;
-    }
+    color: #1E4270;
+}
 
-    .main-nav {
-	margin-top: 5px;
-    }
+.main-nav {
+    width: 100%;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-	.main-nav a {
-		display: block;
-		text-align: center;
-        padding: 10px 15px;
-        font-size: .95em;
-	}
-	
+.main-nav li {
+    list-style: none;
+    padding: 15px 10px;
+    font-size: 18px;
+    text-align: center;
 
-	.main-nav a:hover {
-		color: #093a58;
-	}
+}
 
-    a {
-        text-decoration: none;
-    }
-    a:hover{
-        color:#093a58;
-    }
+.main-nav a:hover {
+    color: #418FDE;
+}
 
-/* ================================= 
-  Media Queries
-==================================== */
+.nav-footer a:hover {
+    color: #418FDE;
+}
 
-@media (min-width: 768px) {
+.main-nav a {
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:#418FDE;
+}
+
+footer {
+    border-top: double #A7E7FF;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%; 
     
 }
 
-@media (min-width: 1024px) {
-    
+.container {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   vertical-align: bottom;
+   align-items: flex-end;
 }
+
+.footer-name {
+    font-size: .70em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.back-to-top {
+    font-size: .70em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
+}
+
+.back-to-top a {
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+/* Main Area */
+
+h1 {
+text-align: center;
+}
+
+section {
+    text-align: center;
+    padding-bottom: 35%;
+}
+
+img:hover {
+    transform: scale(.97);
+}
+
+img {
+    transition-duration: .1s;
+}
+
+.portfolio {
+    padding-bottom: 10%;
+}
+
+/* Media Queries */
+
+/* @media screen and (min-width:768px) {
+    nav {
+        display: flex;
+        margin: auto;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    } 
+
+    
+
+    footer {
+        border-top: double #A7E7FF;
+        margin-top: 90px;
+        width: 100%;
+        
+    }
+
+    .footer-nav {
+        padding-left: 20px;
+        font-size: 1em;
+        text-transform: uppercase;
+        float: right;
+
+
+    }
+
+    .footer-name {
+        font-size: 1.2em;
+        margin: 0;
+        float: left;
+        display: block;
+       
+    }
+
+    .footer-nav {
+    font-size: .50em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+a.home,
+a.portfolio,
+a.contact {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+} */
 
   
       /* ---- Float clearfix ---- */
@@ -70,3 +207,4 @@ p {
           clear: both;
       }
   
+      
