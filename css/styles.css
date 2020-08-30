@@ -1,0 +1,72 @@
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body {
+	font-family: Roboto, sans-serif;
+	line-height: 1.6;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* Navigation */
+    .name {
+	font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    color: #828282;
+    }
+
+    .main-nav {
+	margin-top: 5px;
+    }
+
+	.main-nav a {
+		display: block;
+		text-align: center;
+        padding: 10px 15px;
+        font-size: .95em;
+	}
+	
+
+	.main-nav a:hover {
+		color: #093a58;
+	}
+
+    a {
+        text-decoration: none;
+    }
+    a:hover{
+        color:#093a58;
+    }
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1024px) {
+    
+}
+
+  
+      /* ---- Float clearfix ---- */
+  
+      .clearfix::after {
+          content: " ";
+          display: table;
+          clear: both;
+      }
+  
