@@ -173,20 +173,16 @@ img {
     }
 
     .section-one {
-        width: 40%;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
         margin-left: 25px;
     }
 
     .s1-container {
-        align-items: flex-start;
-        flex-direction: row;
-    }
-
-    .s2-container {
-        align-items: flex-end;
-        flex-direction: row;
+        width: 45%;
     }
 
     .back-to-top {
