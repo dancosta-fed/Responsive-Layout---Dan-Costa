@@ -118,7 +118,6 @@ text-align: center;
 
 section {
     text-align: center;
-    padding-bottom: 35%;
 }
 
 img:hover {
@@ -144,11 +143,6 @@ img {
         flex-direction: row;
         align-items: flex-end;
     }
-
-    /* main {
-        display: flex;
-        padding: 10px 0;
-    } */
 
     .profile-info {
        display: flex;
@@ -178,11 +172,15 @@ img {
         justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 25px;
     }
 
     .s1-container {
         width: 45%;
+    }
+
+    .contact-text {
+        width: 45%;
+        margin-left: 28%;
     }
 
     .back-to-top {
@@ -191,7 +189,6 @@ img {
 
     footer {
         border-top: double #A7E7FF;
-        margin-top: 90px;
         width: 100%;
         
     }
@@ -204,8 +201,6 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-
-
     }
 
     .footer-name {
@@ -217,8 +212,26 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+
+    .section-one {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .s1-container {
+        width: 33%;
+    }
     
-} */
+}
+
+
+
+
+
+
 
   
       /* ---- Float clearfix ---- */
