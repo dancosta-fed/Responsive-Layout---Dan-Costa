@@ -44,7 +44,6 @@ p {
     padding: 15px 10px;
     font-size: 18px;
     text-align: center;
-
 }
 
 .main-nav a:hover {
@@ -136,22 +135,63 @@ img {
 
 /* Media Queries */
 
-/* @media screen and (min-width:768px) {
-    nav {
-        display: flex;
-        margin: auto;
-        margin-bottom: 50px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul {
+@media screen and (min-width:768px) {
+    .main-nav {
+        width: 100%;
+        font-size: 1.8em;
+        text-transform: uppercase;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-    } 
+        align-items: flex-end;
+    }
 
-    
+    /* main {
+        display: flex;
+        padding: 10px 0;
+    } */
+
+    .profile-info {
+       display: flex;
+    }
+
+    .profile {
+        width: 30%;
+        align-items: flex-end;
+        flex: 1;
+    }
+
+    .profile-text {
+        width: 70%;
+        align-items: flex-start;
+        flex: 2;
+        padding-top: 10%;
+        margin-left: 25px;
+    }
+
+    #portfolio {
+        padding: 40px;
+    }
+
+    .section-one {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 25px;
+    }
+
+    .s1-container {
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .s2-container {
+        align-items: flex-end;
+        flex-direction: row;
+    }
+
+    .back-to-top {
+    display: none;
+    }
 
     footer {
         border-top: double #A7E7FF;
@@ -165,34 +205,20 @@ img {
         font-size: 1em;
         text-transform: uppercase;
         float: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
 
 
     }
 
     .footer-name {
         font-size: 1.2em;
-        margin: 0;
-        float: left;
-        display: block;
-       
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
-    .footer-nav {
-    font-size: .50em;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
 }
-a.home,
-a.portfolio,
-a.contact {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-}
-
 
 @media screen and (min-width: 1024px) {
     
@@ -205,6 +231,4 @@ a.contact {
           content: " ";
           display: table;
           clear: both;
-      }
-  
-      
+    }
