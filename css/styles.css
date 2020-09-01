@@ -11,7 +11,7 @@
 body {
 	font-family: Roboto, sans-serif;
     line-height: 1.6;
-    background-color: #FFFFFF;
+    background-color: #F2F2F2;
 }
 
 p {
@@ -110,10 +110,16 @@ footer {
     text-align: end;
 }
 
+.text-color {
+    color: #35a936;
+    font-family: 'Courier New', Roboto, sans-serif;
+}
+
 /* Main Area */
 
 h1 {
 text-align: center;
+font-family: 'Courier New', Roboto, sans-serif;
 }
 
 section {
@@ -244,18 +250,3 @@ img {
     }
     
 }
-
-
-
-
-
-
-
-  
-      /* ---- Float clearfix ---- */
-  
-      .clearfix::after {
-          content: " ";
-          display: table;
-          clear: both;
-    }
