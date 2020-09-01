@@ -178,6 +178,18 @@ img {
         width: 45%;
     }
 
+    .section-two {
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .s2-container {
+        width: 45%;
+    }
+
     .contact-text {
         width: 45%;
         margin-left: 28%;
@@ -201,6 +213,12 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+        width: 30%;
+        text-align: center;
     }
 
     .footer-name {
