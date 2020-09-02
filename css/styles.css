@@ -21,6 +21,10 @@ p {
     text-align: center;
 }
 
+nav {
+    font-family: 'Architects Daughter', Roboto, sans-serif ;
+}
+
 /* Navigation Top and footer */
 
 .name {
@@ -71,7 +75,7 @@ a:hover{
 }
 
 footer {
-    border-top: double #A7E7FF;
+    border-top: double #1E4270;
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 10px;
@@ -112,14 +116,17 @@ footer {
 
 .text-color {
     color: #35a936;
-    font-family: 'Courier New', Roboto, sans-serif;
+    font-family: 'Architects Daughter', Roboto, sans-serif;
 }
 
+.text-h2 {
+    font-family: 'Architects Daughter', Roboto, sans-serif;
+}
 /* Main Area */
 
 h1 {
 text-align: center;
-font-family: 'Courier New', Roboto, sans-serif;
+font-family: 'Architects Daughter', Roboto, sans-serif;
 }
 
 section {
@@ -236,6 +243,15 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+
+    nav {
+        display: flex;
+    }
+
+    .name {
+        text-align: left;
+        padding-left: 52px;
+    }
 
     .section-one {
         width: 90%;
